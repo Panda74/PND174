@@ -7,6 +7,7 @@ C:\Users\Smorodnikov_SL\Desktop\WindowsFormsApplication1\WindowsFormsApplication
 C:\Users\Smorodnikov_SL\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Smorodnikov_SL\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 C:\Users\Smorodnikov_SL\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Новая папка\Github\PND174\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Новая папка\Github\PND174\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Новая папка\Github\PND174\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
@@ -19,3 +20,5 @@ C:\Новая папка\Github\PND174\WindowsFormsApplication1\WindowsFormsAppl
 C:\Users\kas911\Documents\GitHub\PND174\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\kas911\Documents\GitHub\PND174\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\kas911\Documents\GitHub\PND174\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+=======
+>>>>>>> parent of be8883a... Чатик

@@ -59,10 +59,11 @@ namespace WindowsFormsApplication1
                 MySqlDataReader reader1 = cmd2.ExecuteReader();
                 while (reader1.Read())
                 {
-                    for (int i = 0; i < reader1.FieldCount; i = i + 3)
-                    lb_Chat.Items.Add("[" + reader1[i] + "] " + reader1[i + 1] + " " + reader1[i + 2]).ToString();
+                    byte[] data = Encoding.Unicode.GetBytes(reader1[0].ToString());
+                    client.Send(data, data.Length, HOST, REMOTEPORT);
+                    //tB_Chat.Text = (reader1[0].ToString());
+                    reader1.Close();
                 }
-                reader1.Close();
                 conn.Close();
                 // отправляем первое сообщение о входе нового пользователя
                 string message = userName + " вошел в чат";
@@ -117,11 +118,12 @@ namespace WindowsFormsApplication1
             try
             {
                 string message = String.Format("{0}: {1}", userName, tB_Message.Text);
+                string time = String.Format("{0}:{1}");
                 byte[] data = Encoding.Unicode.GetBytes(message);
                 client.Send(data, data.Length, HOST, REMOTEPORT);
                 MySqlConnection conn = new MySqlConnection("server=localhost;user=root;password=;database=psevdochat");
                 conn.Open();
-                MySqlCommand cmd1 = new MySqlCommand("INSERT INTO `messaging`(`ID`, `DataTime`, `User`, `Text`) VALUES ('','','" + userName + "','" + tB_Message.Text + "')", conn);
+                MySqlCommand cmd1 = new MySqlCommand("INSERT INTO `messaging`(`ID`, `DataTime`, `User`, `Text`) VALUES ('','"+time+"','" + userName + "','" + tB_Message.Text + "')", conn);
                 cmd1.ExecuteScalar();
                 conn.Close();
                 tB_Message.Clear();
