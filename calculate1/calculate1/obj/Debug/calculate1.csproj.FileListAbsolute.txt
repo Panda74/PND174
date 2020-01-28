@@ -1,0 +1,9 @@
+C:\Новая папка\Github\PND174\calculate1\calculate1\bin\Debug\calculate1.exe.config
+C:\Новая папка\Github\PND174\calculate1\calculate1\bin\Debug\calculate1.exe
+C:\Новая папка\Github\PND174\calculate1\calculate1\bin\Debug\calculate1.pdb
+C:\Новая папка\Github\PND174\calculate1\calculate1\obj\Debug\calculate1.csprojResolveAssemblyReference.cache
+C:\Новая папка\Github\PND174\calculate1\calculate1\obj\Debug\calculate1.Form1.resources
+C:\Новая папка\Github\PND174\calculate1\calculate1\obj\Debug\calculate1.Properties.Resources.resources
+C:\Новая папка\Github\PND174\calculate1\calculate1\obj\Debug\calculate1.csproj.GenerateResource.Cache
+C:\Новая папка\Github\PND174\calculate1\calculate1\obj\Debug\calculate1.exe
+C:\Новая папка\Github\PND174\calculate1\calculate1\obj\Debug\calculate1.pdb
