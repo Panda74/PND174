@@ -35,6 +35,7 @@
             this.tB_Chat = new System.Windows.Forms.TextBox();
             this.tB_Message = new System.Windows.Forms.TextBox();
             this.btn_Enter = new System.Windows.Forms.Button();
+            this.lb_Chat = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -43,9 +44,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(12, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 24);
+            this.label1.Size = new System.Drawing.Size(102, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Имя:";
+            this.label1.Text = "Username:";
             // 
             // tB_Username
             // 
@@ -83,7 +84,7 @@
             this.tB_Chat.Location = new System.Drawing.Point(12, 65);
             this.tB_Chat.Multiline = true;
             this.tB_Chat.Name = "tB_Chat";
-            this.tB_Chat.Size = new System.Drawing.Size(655, 292);
+            this.tB_Chat.Size = new System.Drawing.Size(318, 292);
             this.tB_Chat.TabIndex = 4;
             // 
             // tB_Message
@@ -106,12 +107,23 @@
             this.btn_Enter.UseVisualStyleBackColor = true;
             this.btn_Enter.Click += new System.EventHandler(this.btn_Enter_Click);
             // 
+            // lb_Chat
+            // 
+            this.lb_Chat.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lb_Chat.FormattingEnabled = true;
+            this.lb_Chat.ItemHeight = 24;
+            this.lb_Chat.Location = new System.Drawing.Point(336, 65);
+            this.lb_Chat.Name = "lb_Chat";
+            this.lb_Chat.Size = new System.Drawing.Size(331, 292);
+            this.lb_Chat.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(679, 456);
+            this.Controls.Add(this.lb_Chat);
             this.Controls.Add(this.btn_Enter);
             this.Controls.Add(this.tB_Message);
             this.Controls.Add(this.tB_Chat);
@@ -135,6 +147,7 @@
         private System.Windows.Forms.TextBox tB_Chat;
         private System.Windows.Forms.TextBox tB_Message;
         private System.Windows.Forms.Button btn_Enter;
+        private System.Windows.Forms.ListBox lb_Chat;
 
     }
 }
